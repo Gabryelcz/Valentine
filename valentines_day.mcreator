@@ -1,0 +1,42 @@
+{
+  "mod_elements": [
+    {
+      "name": "Thanks",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.thanks.descr": "Thanks for Downloading This mod!",
+      "advancements.thanks.title": "Happy Valentines day!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "valentines_day",
+    "modName": "Valentine\u0027s day",
+    "version": "1.0.0",
+    "author": "vorlo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.valentinesday",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
