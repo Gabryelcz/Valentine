@@ -6,9 +6,13 @@ license="Academic Free License v3.0"
 modId="valentines_day"
 version="1.0.0"
 displayName="Valentine's day"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Gabryel (Everyting else) and MCcreator (for Modding Application)"
 displayURL="https://mcreator.net"
-authors="vorlo, MCreator"
+logoFile="logo.png"
+authors="Gabryel"
+description='''
+Mod for Valentine's day
+'''
 
 [[dependencies.valentines_day]]
     modId="minecraft"

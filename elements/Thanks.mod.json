@@ -5,7 +5,7 @@
     "achievementName": "Happy Valentines day!",
     "achievementDescription": "Thanks for Downloading This mod!",
     "achievementIcon": {
-      "value": "Blocks.REDSTONE_BLOCK"
+      "value": "CUSTOM:Thankyou"
     },
     "background": "Default",
     "disableDisplay": false,

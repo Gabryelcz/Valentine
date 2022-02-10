@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "minecraft:redstone_block"
+      "item": "valentines_day:thankyou"
     },
     "title": {
       "translate": "advancements.thanks.title"

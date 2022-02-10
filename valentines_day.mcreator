@@ -7,13 +7,32 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thanks"
+    },
+    {
+      "name": "Thankyou",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thankyou"
+    },
+    {
+      "name": "Heart",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "entity.valentines_day.heart": "Heart",
+      "item.valentines_day.thankyou": "Thankyou",
       "advancements.thanks.descr": "Thanks for Downloading This mod!",
+      "item.valentines_day.heart_spawn_egg": "Heart Spawn Egg",
       "advancements.thanks.title": "Happy Valentines day!"
     }
   },
@@ -25,16 +44,19 @@
     "modid": "valentines_day",
     "modName": "Valentine\u0027s day",
     "version": "1.0.0",
-    "author": "vorlo, MCreator",
+    "description": "Mod for Valentine\u0027s day",
+    "author": "Gabryel",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "heartframe8",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Gabryel (Everyting else) and MCcreator (for Modding Application)",
     "modElementsPackage": "net.mcreator.valentinesday",
     "lockBaseModFiles": false
   },

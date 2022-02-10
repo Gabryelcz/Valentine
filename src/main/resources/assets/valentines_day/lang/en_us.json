@@ -1,4 +1,7 @@
 {
+  "entity.valentines_day.heart": "Heart",
+  "item.valentines_day.thankyou": "Thankyou",
   "advancements.thanks.descr": "Thanks for Downloading This mod!",
+  "item.valentines_day.heart_spawn_egg": "Heart Spawn Egg",
   "advancements.thanks.title": "Happy Valentines day!"
 }
