@@ -23,6 +23,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "heart"
+    },
+    {
+      "name": "ValentineSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valentine_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ValentineSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valentine_sword"
+    },
+    {
+      "name": "Monsterheart",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monsterheart"
     }
   ],
   "variable_elements": [],
@@ -30,7 +66,10 @@
   "language_map": {
     "en_us": {
       "entity.valentines_day.heart": "Heart",
+      "item.valentines_day.valentine_sword": "Valentine Sword",
+      "entity.valentines_day.monsterheart": "Monster Heart",
       "item.valentines_day.thankyou": "Thankyou",
+      "item.valentines_day.monsterheart_spawn_egg": "Monster Heart Spawn Egg",
       "advancements.thanks.descr": "Thanks for Downloading This mod!",
       "item.valentines_day.heart_spawn_egg": "Heart Spawn Egg",
       "advancements.thanks.title": "Happy Valentines day!"

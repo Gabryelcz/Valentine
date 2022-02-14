@@ -12,6 +12,7 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.valentinesday.item.ValentineSwordItem;
 import net.mcreator.valentinesday.item.ThankyouItem;
 
 import java.util.List;
@@ -24,6 +25,10 @@ public class ValentinesDayModItems {
 	public static final Item HEART = register(
 			new SpawnEggItem(ValentinesDayModEntities.HEART, -65536, -10289152, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("heart_spawn_egg"));
+	public static final Item VALENTINE_SWORD = register(new ValentineSwordItem());
+	public static final Item MONSTERHEART = register(
+			new SpawnEggItem(ValentinesDayModEntities.MONSTERHEART, -13434880, -65536, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("monsterheart_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

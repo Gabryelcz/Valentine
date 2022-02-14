@@ -14,6 +14,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.valentinesday.entity.MonsterheartEntity;
 import net.mcreator.valentinesday.entity.HeartEntity;
 
 import java.util.List;
@@ -25,6 +26,9 @@ public class ValentinesDayModEntities {
 	public static final EntityType<HeartEntity> HEART = register("heart",
 			EntityType.Builder.<HeartEntity>of(HeartEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(HeartEntity::new).sized(0.6f, 0.8f));
+	public static final EntityType<MonsterheartEntity> MONSTERHEART = register("monsterheart",
+			EntityType.Builder.<MonsterheartEntity>of(MonsterheartEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MonsterheartEntity::new).sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -41,11 +45,13 @@ public class ValentinesDayModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			HeartEntity.init();
+			MonsterheartEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(HEART, HeartEntity.createAttributes().build());
+		event.put(MONSTERHEART, MonsterheartEntity.createAttributes().build());
 	}
 }
